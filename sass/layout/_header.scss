@@ -1,0 +1,24 @@
+.header {
+  width: 100%;
+
+  &__heading-box {
+    max-width: 55rem;
+    text-align: center;
+    margin: 6rem auto;
+    padding: 0 2rem;
+    transition: all .2s;
+
+    @include respond(phone){//below 600px just cause __heading-box div to scale down. max-width is magic :)
+      max-width: 36rem;
+    }
+  }
+
+  &__main {
+      padding: 1rem 0;
+      animation: moveInLeft .8s ease-out;
+  }
+
+  &__para {
+    animation: moveInRight .8s ease-out;
+  }
+}

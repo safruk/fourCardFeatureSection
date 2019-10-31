@@ -1,0 +1,35 @@
+//COLORS
+// ## Colors
+//
+// ### Primary
+//
+// - Red: hsl(0, 78%, 62%)
+// - Cyan: hsl(180, 62%, 55%)
+// - Orange: hsl(34, 97%, 64%)
+// - Blue: hsl(212, 86%, 64%)
+//
+// ### Neutral
+//
+// - Very Dark Blue: hsl(234, 12%, 34%)
+// - Grayish Blue: hsl(229, 6%, 66%)
+
+$color-primary-1: hsl(0, 78%, 62%);
+$color-primary-2:  hsl(180, 62%, 55%);
+$color-primary-3: hsl(34, 97%, 64%);
+$color-primary-4: hsl(212, 86%, 64%);
+
+$color-neutral-1: hsl(234, 12%, 34%);
+$color-neutral-2: hsl(229, 6%, 66%);
+
+$color-white: #fff;
+
+//font
+
+$default-font-size: 1.5rem;
+
+//grid
+
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
